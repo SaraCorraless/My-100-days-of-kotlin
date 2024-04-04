@@ -7,7 +7,16 @@ fun main(args: Array<String>) {
     */
 
     //Day 2
-    unaryOperator()
+    /*unaryOperator()
     arithmeticOperator()
     compositeAssignmentOperators()
+     */
+
+    //Day 3
+    incrementDecrementOperators()
+    relationalOperators()
+    logicalOperators()
+    bitLevelOperators()
+
+    //Day 4
 }
