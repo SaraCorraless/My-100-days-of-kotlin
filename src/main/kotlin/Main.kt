@@ -13,10 +13,13 @@ fun main(args: Array<String>) {
      */
 
     //Day 3
-    incrementDecrementOperators()
+    /*incrementDecrementOperators()
     relationalOperators()
     logicalOperators()
-    bitLevelOperators()
+    bitLevelOperators()*/
 
     //Day 4
+    ifElseFormats()
+    whenFormats()
+    whenWithFunction("hi")
 }
