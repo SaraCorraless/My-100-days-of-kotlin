@@ -19,7 +19,12 @@ fun main(args: Array<String>) {
     bitLevelOperators()*/
 
     //Day 4
-    ifElseFormats()
+    /*ifElseFormats()
     whenFormats()
-    whenWithFunction("hi")
+    whenWithFunction("hi")*/
+
+    //Day 5
+    forLoop()
+    whileLoop()
+    returnsJumps()
 }
