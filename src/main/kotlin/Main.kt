@@ -24,7 +24,11 @@ fun main(args: Array<String>) {
     whenWithFunction("hi")*/
 
     //Day 5
-    forLoop()
+    /*forLoop()
     whileLoop()
-    returnsJumps()
+    returnsJumps()*/
+
+    //Day 6
+    scopeFunctions()
+
 }
