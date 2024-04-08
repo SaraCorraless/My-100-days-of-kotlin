@@ -29,6 +29,9 @@ fun main(args: Array<String>) {
     returnsJumps()*/
 
     //Day 6
-    scopeFunctions()
+    /*scopeFunctions()*/
+
+    //Day 7
+    arrayExample()
 
 }
