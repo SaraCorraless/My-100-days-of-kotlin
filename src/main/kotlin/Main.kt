@@ -32,6 +32,9 @@ fun main(args: Array<String>) {
     /*scopeFunctions()*/
 
     //Day 7
-    arrayExample()
+    /*arrayExample()*/
+
+    //Day 8
+    listExample()
 
 }

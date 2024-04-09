@@ -28,3 +28,42 @@ fun arrayExample(): Unit {
     
 }
 
+fun listExample(): Unit {
+    //It is a resizable array in which we can store all types of data or objects.
+    //With a list, you can also insert new elements between other elements in a specific index.
+
+    //List: is an interface that defines properties and methods related to an ordered, read-only collection of elements.
+
+    //MutableList: extends the List interface by defining methods for modifying a list, such as adding or removing elements.
+    // With this option we can modify the list by adding or deleting elements
+
+    val listTest = listOf("H", "o", "L", "A")
+    println(listTest.toString())
+
+    val listT2 = listOf<Int>(5,3,1)
+    println(listT2.toString())
+    println("List size listTest: ${listTest.size}")
+    println("Position 3: ${listTest[3]}")
+
+
+
+    //iterate list
+    listT2.forEach {
+        println("Iterate: "+ it)
+    }
+
+    val mutableListTest = mutableListOf<Int>(2, 4, 3, 1, 11, 43)
+    //add element
+    mutableListTest.add(33)
+
+    //remove element
+    mutableListTest.remove(11)
+
+    println(mutableListTest.toString())
+
+    //Contains
+    println("Contains element: "+ mutableListTest.contains(33))
+
+
+}
+
