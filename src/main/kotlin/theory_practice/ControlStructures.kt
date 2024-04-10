@@ -126,3 +126,81 @@ fun returnsJumps(): Unit{
     println("this point is unreachable")
 
 }
+
+fun hashCodeExample(): Unit {
+    //A set is a collection that has no specific order and does not allow duplicate values.
+
+    println("\n-> HashSet")
+    val hashcodeTest = hashSetOf("a")
+
+    //add
+    hashcodeTest.add("j")
+    hashcodeTest.add("Hola")
+
+    //iteration
+    hashcodeTest.forEach{
+        println("Iterate: ${it}")
+    }
+
+    //remove
+    hashcodeTest.remove("j")
+    println(hashcodeTest.toString())
+
+    println("\n-> HashMap")
+    val hashMapTest = hashMapOf<Int, String>(0 to "Uno")
+    val hashMapT2 = hashMapOf<Int, String>(1 to "Dos")
+    val hM3 = hashMapTest + hashMapT2
+
+    println(hM3.toString())
+
+
+    println("\n-> MutableSet")
+    val mutableSetT = mutableSetOf(0,1,2,3,4,5)
+
+    //add
+    mutableSetT.add(10)
+
+    //Iteration
+    mutableSetT.forEach{
+        println("Iterate elements of mutableSet: ${it}")
+    }
+
+    //remove
+    mutableSetT.remove(3)
+    println(mutableSetT.toString())
+
+    //size
+    println("Size of my mutableSet: ${mutableSetT.size}")
+
+    //contains
+    println("My mutableSet contain 7: ${mutableSetT.contains(7)}")
+
+
+    println("\n-> MutableMap")
+    val mutableMapT = mutableMapOf<Int, String>(0 to "Happy", 1 to "Sad", 2 to "Funny")
+
+    //Iterate
+    mutableMapT.forEach{
+        println("Iterate elements: "+ it.key +" - "+ it.value)
+    }
+
+    //remove
+    mutableMapT.remove(0)
+    println(mutableMapT.toString())
+
+    //size
+    println("Size of my mutableMap: ${mutableMapT.size}")
+
+    //contains
+    println("My mutableSet contain key 1: ${mutableMapT.contains(1)}")
+
+
+    //Summary
+
+    //Arrays store ordered data of the same type, and have a fixed size.
+    //Arrays are used to implement many of the other collection types.
+    //Lists are a resizable, ordered collection.
+    //Sets are unordered collections and cannot contain duplicates.
+    //Maps work similarly to sets and store pairs of keys and values of the specified type.
+
+}

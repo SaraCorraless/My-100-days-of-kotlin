@@ -35,6 +35,9 @@ fun main(args: Array<String>) {
     /*arrayExample()*/
 
     //Day 8
-    listExample()
+    //listExample()
+
+    //Day 9
+    hashCodeExample()
 
 }
