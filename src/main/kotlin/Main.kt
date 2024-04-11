@@ -38,6 +38,9 @@ fun main(args: Array<String>) {
     //listExample()
 
     //Day 9
-    hashCodeExample()
+    //hashCodeExample()
+
+    //Day 10
+    useClasses()
 
 }
