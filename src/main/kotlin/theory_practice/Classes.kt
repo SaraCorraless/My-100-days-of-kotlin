@@ -24,3 +24,13 @@ fun useClasses(): Unit{
 
 
 }
+
+fun useGettersSetters(): Unit {
+    var childrenBook = Book("Roses")
+    println(childrenBook.toString())
+    childrenBook.title = "Roses 2"
+    childrenBook.numPages = 100
+
+    println(childrenBook.toString())
+    
+}

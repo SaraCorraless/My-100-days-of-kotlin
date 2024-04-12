@@ -12,13 +12,31 @@ import kotlin.random.Random
 //Constructor: A special function that creates instances of the class throughout the program in which it is defined.
 
 
-class Book(
-    val title: String,
-    val numPages: Int
-) {
+class Book(title: String) {
+    constructor(title: String, numPages: Int) : this(title)
+
+    var title: String = title
+        get() {
+            return field
+        }
+        set(value) {
+            field = value
+        }
+
+    var numPages: Int = 0
+        get() {
+            return field
+        }
+        set(value){
+            field = value
+        }
 
     fun readPages(numMax: Int): Int{
         return (0..numMax).random()
+    }
+
+    override fun toString(): String {
+        return "["+this.title+", "+this.numPages+"]"
     }
 
 }

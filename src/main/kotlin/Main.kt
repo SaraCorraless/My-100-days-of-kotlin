@@ -41,6 +41,9 @@ fun main(args: Array<String>) {
     //hashCodeExample()
 
     //Day 10
-    useClasses()
+    //useClasses()
+
+    //Day 11
+    useGettersSetters()
 
 }
