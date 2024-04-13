@@ -44,6 +44,9 @@ fun main(args: Array<String>) {
     //useClasses()
 
     //Day 11
-    useGettersSetters()
+    //useGettersSetters()
+
+    //Day 12
+    //Initial commit, creation of add contacts part 1: Repo -> ContactListExample
 
 }
