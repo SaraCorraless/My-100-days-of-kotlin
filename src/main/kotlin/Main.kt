@@ -49,4 +49,7 @@ fun main(args: Array<String>) {
     //Day 12
     //Initial commit, creation of add contacts part 1: Repo -> ContactListExample
 
+    //Day 13
+    //Creation of contact screen and modifications in adding contacts screen -> ContactListExample
+
 }
