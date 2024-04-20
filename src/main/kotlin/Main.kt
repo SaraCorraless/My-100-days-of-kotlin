@@ -52,4 +52,7 @@ fun main(args: Array<String>) {
     //Day 13
     //Creation of contact screen and modifications in adding contacts screen -> ContactListExample
 
+    //Day 14
+    //Bottom navigation creation
+
 }
