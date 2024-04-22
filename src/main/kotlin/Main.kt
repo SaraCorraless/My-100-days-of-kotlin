@@ -58,4 +58,7 @@ fun main(args: Array<String>) {
     //Day 15
     //Room part 1
 
+    //Day 16
+    //Room part 2
+
 }
