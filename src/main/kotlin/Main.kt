@@ -61,4 +61,7 @@ fun main(args: Array<String>) {
     //Day 16
     //Room part 2
 
+    //Day 17
+    //Changes in MVVM and ROOM:
+
 }
